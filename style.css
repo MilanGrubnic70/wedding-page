@@ -3,14 +3,16 @@
     padding: 0px;
 }
 
+body {
+    background-color: Violet;
+}
+
 div#container {
-    border: 5px solid #ff0;
     margin: 0px auto;
     text-align: center;
 }
 
 section#icon {
-    background-color: red;
     height: 20 0px;
 }
 
@@ -21,18 +23,16 @@ img {
     display: block;
 }
 
-section#content {
-    background-color: blue;
-}
+section#content {}
 
 section#church-info {
-    background-color: white;
     width: 50%;
     float: left;
+    padding-top: 10px;
 }
 
 section#hall-info {
-    background-color: green;
+    padding-top: 10px;
 }
 
 h1,
@@ -40,10 +40,11 @@ h2,
 h3,
 h4 {
     font-family: 'Parisienne', cursive;
+    color: Indigo;
 }
 
 h1 {
-    color: silver;
+    color: MedianBlue;
     font-size: 70px;
 }
 
@@ -53,8 +54,14 @@ h2 {
 
 h3 {
     font-size: 30px;
+    color: blue;
 }
 
 p {
-	font-family: Arial;
+    font-family: Arial;
+}
+
+h3#location {
+    color: Indigo;
+    font-size: 20px;
 }
