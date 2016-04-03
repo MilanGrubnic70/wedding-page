@@ -11,11 +11,11 @@ div#container {
 
 section#icon {
     background-color: red;
-    height: 250px;
+    height: 20 	0px;
 }
 
 img {
-    height: 250px;
+    height: 200px;
     border-radius: 100%;
     margin: auto;
     display: block;
@@ -39,8 +39,7 @@ h1,
 h2,
 h3 {
     font-family: 'Parisienne', cursive;
-    font-size: 35px;
-}
+  }
 
 h1 {
     color: silver;
@@ -49,4 +48,8 @@ h1 {
 
 h2 {
     font-size: 50px;
+}
+
+h3 {
+	font-size: 30px;
 }
