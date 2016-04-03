@@ -11,7 +11,7 @@ div#container {
 
 section#icon {
     background-color: red;
-    height: 20 	0px;
+    height: 20 0px;
 }
 
 img {
@@ -37,9 +37,10 @@ section#hall-info {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
     font-family: 'Parisienne', cursive;
-  }
+}
 
 h1 {
     color: silver;
@@ -51,5 +52,9 @@ h2 {
 }
 
 h3 {
-	font-size: 30px;
+    font-size: 30px;
+}
+
+p {
+	font-family: Arial;
 }
