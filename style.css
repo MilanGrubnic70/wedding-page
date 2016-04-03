@@ -1,6 +1,38 @@
-body {
-    background-color: fuchsia;
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+div#container {
+    border: 5px solid #ff0;
+    margin: 0px auto;
     text-align: center;
+}
+
+section#icon {
+    background-color: red;
+    height: 250px;
+}
+
+img {
+    height: 250px;
+    border-radius: 100%;
+    margin: auto;
+    display: block;
+}
+
+section#content {
+    background-color: blue;
+}
+
+section#church-info {
+    background-color: white;
+    width: 50%;
+    float: left;
+}
+
+section#hall-info {
+    background-color: green;
 }
 
 h1,
@@ -8,14 +40,13 @@ h2,
 h3 {
     font-family: 'Parisienne', cursive;
     font-size: 35px;
-
 }
 
 h1 {
-	color: silver;
-	font-size: 70px;
+    color: silver;
+    font-size: 70px;
 }
 
 h2 {
-	font-size: 45px;
+    font-size: 50px;
 }
