@@ -28,13 +28,15 @@ img {
 section#content {}
 
 section#church-info {
-    width: 50%;
+    width: 480px;
     float: left;
     padding-top: 10px;
 }
 
 section#hall-info {
     padding-top: 10px;
+    float: left;
+    width: 480px;
 }
 
 h1,
