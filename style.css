@@ -8,12 +8,12 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 40px;
     color: purple;
 }
 
 h3 {
-    font-size: 40px;
+    font-size: 35px;
     color: indigo;
 }
 
@@ -33,31 +33,34 @@ h3 {
 }
 
 #container {
-    padding-top: 30px;
+    padding-top: 20px;
     width: 960px;
     height: 478px;
     margin: 0px auto;
-    font-style: green;
 }
 
 #content {
-    padding-top: 25px;
+    padding-top: 20px;
     text-align: center;
     font-size: 25px;
 }
 
 #hall-info {
     padding-top: 12px;
-    width: 478px;
+    width: 480px;
     float: left;
     text-align: center;
 }
 
 #church-info {
     padding-top: 12px;
-    width: 478px;
+    width: 480px;
     float: left;
     text-align: center;
+}
+
+p#location {
+    color: red;
 }
 
 img {
@@ -100,5 +103,9 @@ img {
 @media screen and (max-width:320px) {
     #container {
         width: 320px;
+    }
+    #church-info,
+    #hall-info {
+        font-size: 14px;
     }
 }
