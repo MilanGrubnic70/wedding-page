@@ -1,21 +1,59 @@
-* {
-    margin: 0px;
-    padding: 0px;
-}
-
 body {
-    background-color: Violet;
+    background-color: violet;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-div#container {
-    margin: 0px auto;
-    text-align: center;
+h1 {
+    font-size: 50px;
+    color: purple;
+}
+
+h3 {
+    font-size: 40px;
+    color: indigo;
+}
+
+p,
+h1,
+h2,
+h3 {
+    margin: 2px;
+}
+
+#content {
+    font-family: 'Parisienne', cursive;
+}
+
+#content p {
+    color: darkblue;
+}
+
+#container {
+    padding-top: 30px;
     width: 960px;
-    background-color: green;
+    height: 478px;
+    margin: 0px auto;
+    font-style: green;
 }
 
-section#icon {
-    height: 20 0px;
+#content {
+    padding-top: 25px;
+    text-align: center;
+    font-size: 25px;
+}
+
+#hall-info {
+    padding-top: 12px;
+    width: 478px;
+    float: left;
+    text-align: center;
+}
+
+#church-info {
+    padding-top: 12px;
+    width: 478px;
+    float: left;
+    text-align: center;
 }
 
 img {
@@ -25,47 +63,38 @@ img {
     display: block;
 }
 
-section#content {}
 
-section#church-info {
-    width: 480px;
-    float: left;
-    padding-top: 10px;
+/*Tablets: iPads*/
+
+@media screen and (max-width:959px) {
+    #container {
+        width: 100%;
+    }
+    #hall-info {
+        width: 50%;
+    }
+    #church-info {
+        width: 50%;
+    }
 }
 
-section#hall-info {
-    padding-top: 10px;
-    float: left;
-    width: 480px;
+
+/*Large screen smart phones: iPhone 6*/
+
+@media screen and (max-width:640px) {
+    #hall-info {
+        width: 100%;
+    }
+    #church-info {
+        width: 100%;
+    }
 }
 
-h1,
-h2,
-h3,
-h4 {
-    font-family: 'Parisienne', cursive;
-    color: Indigo;
-}
 
-h1 {
-    color: MedianBlue;
-    font-size: 70px;
-}
+/*First generation smart phones: iPhone 3GS*/
 
-h2 {
-    font-size: 50px;
-}
-
-h3 {
-    font-size: 30px;
-    color: blue;
-}
-
-p {
-    font-family: Arial;
-}
-
-h3#location {
-    color: Indigo;
-    font-size: 20px;
+@media screen and (max-width:320px) {
+    #container {
+        width: 320px;
+    }
 }
