@@ -28,6 +28,12 @@ h3 {
     font-family: 'Parisienne', cursive;
 }
 
+.links {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: purple;
+}
+
 #content p {
     color: darkblue;
 }
@@ -59,13 +65,44 @@ h3 {
     text-align: center;
 }
 
+#shower-info {
+    padding-top: 12px;
+    width: 480px;
+    float: left;
+    text-align: center;
+}
+
+#registry-info {
+    padding-top: 12px;
+    width: 480px;
+    float: left;
+    text-align: center;
+}
+
 p#location {
-    color: red;
+    color: border-left: ;
+}
+
+#back {
+    text-align: center;
 }
 
 img {
     height: 200px;
     border-radius: 100%;
+    margin: auto;
+    display: block;}
+
+#shower {
+    height: 400px;
+    border-radius: 10%;
+    margin: auto;
+    display: block;
+}
+
+#registry {
+    height: 400px;
+    border-radius: 1%;
     margin: auto;
     display: block;
 }
@@ -77,10 +114,12 @@ img {
     #container {
         width: 100%;
     }
-    #hall-info {
+    #hall-info,
+    #registry-info {
         width: 50%;
     }
-    #church-info {
+    #church-info,
+    #shower-info {
         width: 50%;
     }
 }
@@ -89,10 +128,12 @@ img {
 /*Large screen smart phones: iPhone 6*/
 
 @media screen and (max-width:640px) {
-    #hall-info {
+    #hall-info,
+    #registry-info {
         width: 100%;
     }
-    #church-info {
+    #church-info,
+    #shower-info {
         width: 100%;
     }
 }
