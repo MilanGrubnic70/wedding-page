@@ -51,32 +51,16 @@ h3 {
     font-size: 25px;
 }
 
-#hall-info {
-    padding-top: 12px;
-    width: 480px;
-    float: left;
-    text-align: center;
-}
-
-#church-info {
-    padding-top: 12px;
-    width: 480px;
-    float: left;
-    text-align: center;
-}
-
-#shower-info {
-    padding-top: 12px;
-    width: 480px;
-    float: left;
-    text-align: center;
-}
-
+#church-info,
+#hall-info,
+#brazil-info,
+#usa-info,
+#shower-info,
 #registry-info {
     padding-top: 12px;
     width: 480px;
     float: left;
-    text-align: center;
+    text-align: center
 }
 
 p#location {
@@ -91,7 +75,8 @@ img {
     height: 200px;
     border-radius: 100%;
     margin: auto;
-    display: block;}
+    display: block;
+}
 
 #shower {
     height: 400px;
@@ -107,6 +92,12 @@ img {
     display: block;
 }
 
+#center {
+    text-align: center;
+    font-family: 'Parisienne', cursive;
+    font-size: 30px;
+}
+
 
 /*Tablets: iPads*/
 
@@ -115,11 +106,13 @@ img {
         width: 100%;
     }
     #hall-info,
-    #registry-info {
+    #registry-info,
+    #usa-info {
         width: 50%;
     }
     #church-info,
-    #shower-info {
+    #shower-info,
+    #brazil-info {
         width: 50%;
     }
 }
@@ -129,11 +122,13 @@ img {
 
 @media screen and (max-width:640px) {
     #hall-info,
-    #registry-info {
+    #registry-info,
+    #usa-info {
         width: 100%;
     }
     #church-info,
-    #shower-info {
+    #shower-info,
+    #brazil-info {
         width: 100%;
     }
 }
@@ -146,7 +141,8 @@ img {
         width: 320px;
     }
     #church-info,
-    #hall-info {
+    #hall-info #brazil-info,
+    #usa-info {
         font-size: 14px;
     }
 }
