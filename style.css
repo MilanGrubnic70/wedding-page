@@ -34,6 +34,12 @@ h3 {
     color: purple;
 }
 
+#gifts {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: darkblue;
+}
+
 #content p {
     color: darkblue;
 }
